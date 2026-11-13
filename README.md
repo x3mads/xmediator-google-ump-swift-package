@@ -18,7 +18,7 @@ To integrate `XMediatorGoogleUMP` into your Xcode project using Swift Package Ma
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-google-ump-swift-package", exact: "3.1.000")
+    .package(url: "https://github.com/x3mads/xmediator-google-ump-swift-package", exact: "3.1.001")
 ]
 ```
 

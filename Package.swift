@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git", "3.1.0"..<"4.0.0"),
-        .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.131.0")),
+        .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.177.0")),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorGoogleUMP",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorGoogleUMP/XMediatorGoogleUMP-3.1.0.0.zip",
-            checksum: "2d608f94ea992f2e28f4925048980d7ffb596f6d2aedd704ccfe50cb9ffb7e54"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorGoogleUMP/XMediatorGoogleUMP-3.1.0.1.zip",
+            checksum: "b9b51913836486f4f76c16cb835d0a8743c56b87ef1625330854294e3a36a883"
         ),
     ]
 )
